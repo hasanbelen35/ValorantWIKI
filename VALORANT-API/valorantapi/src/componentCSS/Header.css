@@ -1,0 +1,31 @@
+.header{
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    color:red;
+}
+.header-imgbox{
+    display: flex;
+    align-items: center;
+    h2{
+        margin-left: 20px;
+        font-weight: 700;
+    }
+}
+.header-img{
+    height: 80px;
+    width: 90pxpx;
+}
+.icons{
+    margin-right: 50px;
+    height: 70px;
+    width: 30px;
+}
+.icons:hover{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
